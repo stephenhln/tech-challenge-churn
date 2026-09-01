@@ -277,8 +277,6 @@ Projeto desenvolvido individualmente.
 |---|---|
 |Joao Vitor Moreira Silva | rm376097 |
 
-**Vídeo de apresentação:** 
-
 ## Licença
 
 MIT — código. O dataset segue a licença original da IBM Sample Data Sets.
