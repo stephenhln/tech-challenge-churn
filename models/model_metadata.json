@@ -1,0 +1,67 @@
+{
+  "model_name": "random_forest",
+  "package_version": "1.0.0",
+  "trained_at": "2026-08-28T12:30:57+00:00",
+  "random_seed": 42,
+  "selection_metric": "f1",
+  "decision_threshold": 0.45,
+  "n_train": 5634,
+  "n_test": 1409,
+  "churn_rate_train": 0.2653532126375577,
+  "target": "Churn",
+  "numeric_features": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "SeniorCitizen"
+  ],
+  "categorical_features": [
+    "gender",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod"
+  ],
+  "metrics_threshold_0_5": {
+    "threshold": 0.5,
+    "f1": 0.6334841628959276,
+    "precision": 0.5490196078431373,
+    "recall": 0.7486631016042781,
+    "roc_auc": 0.8405719600093002,
+    "pr_auc": 0.6473226044689543,
+    "accuracy": 0.7700496806245565,
+    "business_value": 109500.0
+  },
+  "metrics_tuned_threshold": {
+    "threshold": 0.45,
+    "f1": 0.6339381003201707,
+    "precision": 0.5275310834813499,
+    "recall": 0.7941176470588235,
+    "roc_auc": 0.8405719600093002,
+    "pr_auc": 0.6473226044689543,
+    "accuracy": 0.7565649396735273,
+    "business_value": 135550.0
+  },
+  "confusion_matrix_tuned": {
+    "true_negative": 769,
+    "false_positive": 266,
+    "false_negative": 77,
+    "true_positive": 297
+  },
+  "environment": {
+    "python": "3.12.3",
+    "scikit_learn": "1.8.0",
+    "pandas": "3.0.2",
+    "numpy": "2.4.4"
+  }
+}
