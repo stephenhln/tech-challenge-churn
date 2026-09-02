@@ -43,7 +43,6 @@ tech-challenge-churn/
 ├── docs/
 │   ├── ml_canvas.md              # ML Canvas 
 │   ├── model_card.md             # Model Card: métricas, vieses e limitações
-│   └── roteiro_video_star.md     # roteiro do vídeo de entrega
 ├── models/
 │   ├── champion_model.joblib     # pipeline completo serializado
 │   └── model_metadata.json       # métricas, limiar, ambiente e data do treino
